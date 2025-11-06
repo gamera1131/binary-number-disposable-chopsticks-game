@@ -6,7 +6,7 @@ function decToBin5bit($dec) {
 }
 #表示するときにleft rightを日本語に変換する関数
 function EnglishToJapanese($hands){
-    if($hands==!"left"){
+    if($hands==="left"){
         return "左";
     }
     else{
